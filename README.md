@@ -1,7 +1,7 @@
 # direct-im-server
-Direct Texing (the current name) is an effort within DirectTrust to bring instance messaging technology to health care in much the same way the DirectProject brought SMTP (i.e. Email) based workflows to health care.  The concept utilizes many of the same philosophies of the DirectProject to ensure secure and authenticate flow of messages between organizations and entities within those organizations.
+Direct Texing (the current name) is an effort within DirectTrust to bring instance messaging technology to health care in much the same way the DirectProject brought SMTP (i.e. e-mail) based workflows to health care.  The concept utilizes many of the same philosophies of the DirectProject to ensure secure and authenticate flow of messages between organizations and entities within those organizations.
 
-This prototype wraps a full blow [Openfire](https://www.igniterealtime.org/projects/openfire/) 4.2.3 server as a SpringBoot application and allows for configuration of trust stores and server to server TLS certificates (DirectTexting effectively uses mutual TLS for server to server communication).
+This prototype wraps a full blow [Openfire](https://www.igniterealtime.org/projects/openfire/) 4.2.0 server as a SpringBoot application and allows for configuration of trust stores and server to server TLS certificates (DirectTexting effectively uses mutual TLS for server to server communication).
 
 **NOTE:** The current state is not configured for proper security out of the box.  This is being worked on so that an out of the box deployment is correctly configured to security server to server communication and to remove the default list of trust anchors.  Futher development will allow for the configuration of trust bundles (using the same DirectProject trust bundle distribution) as well as API to configure trust.
 

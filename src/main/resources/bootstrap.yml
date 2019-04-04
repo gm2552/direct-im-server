@@ -1,0 +1,5 @@
+spring:
+  datasource:
+    url: "jdbc:hsqldb:embedded-db/openfire"
+    username: sa
+    password: 
